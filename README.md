@@ -2,9 +2,11 @@
 My very own personal website. Basically this is just a résumé.
 
 **this is bold text**
+
 __no, bold text it's me__
 
 *and this is italic text*
+
 _em, what did you say?_
 
 1. I am like a list
@@ -36,4 +38,5 @@ Go to lists:
   4. four
   
 Link: [YouTube](https://www.youtube.com)
+
 Blockquotes? :  > some text
