@@ -25,10 +25,16 @@
 
 h1 {
 	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.name {
+	margin-bottom: 0%;
 }
 
 table {
-	margin: 5% auto;
+	margin: auto;
 }
 
 td {
@@ -36,20 +42,32 @@ td {
 	font-size: 1.3em;
 }
 
-.contacts {
-	margin-top: 5%;
-}
-
-.eduH {
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-
 .eduList {
-	margin-left: 20%;
+	margin-left: 17%;
 	font-size: 1.3em;
+	list-style: none;
+}
+
+.eduList > li::before {
+	content: "•"; 
+	color: blue;
+	margin-right: 2%;
+	font-size: 1.2em;
 }
 
 .eduListNested {
-	margin-left: 5%;
+	margin-left: 7%;
+}
+
+.softList {
+	margin-left: 7%;
+	font-size: 1.3em;
+	list-style: none;
+}
+
+.softList > li::before {
+	content: "•"; 
+	color: blue;
+	margin-right: 2%;
+	font-size: 1.2em;
 }
