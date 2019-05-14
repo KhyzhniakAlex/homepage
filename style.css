@@ -5,7 +5,7 @@
 
 .main {
     margin: 5% auto;
-    width: 80%;
+    width: 70%;
     border: 4px solid blue;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,11 +13,43 @@
 }
 
 .info {
-    height: 100px;
     border: 1px solid red;
 }
 
 .ownPhoto {
-    height: 150px;
-    width: 13%;
+	display: block;
+    height: 120%;
+    width: 40%;
+    margin: 5% auto 2% auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	margin: 5% auto;
+}
+
+td {
+	border: 1px solid red;
+	font-size: 1.3em;
+}
+
+.contacts {
+	margin-top: 5%;
+}
+
+.eduH {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.eduList {
+	margin-left: 20%;
+	font-size: 1.3em;
+}
+
+.eduListNested {
+	margin-left: 5%;
 }
